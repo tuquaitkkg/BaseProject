@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		436EB1101E2DD154004F1074 /* RequestSuccess.m in Sources */ = {isa = PBXBuildFile; fileRef = 436EB10F1E2DD154004F1074 /* RequestSuccess.m */; };
+		436EB1131E2DD16B004F1074 /* RequestFailure.m in Sources */ = {isa = PBXBuildFile; fileRef = 436EB1121E2DD16B004F1074 /* RequestFailure.m */; };
 		4374E1DA1E286E1000B3E830 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4374E1D91E286E1000B3E830 /* main.m */; };
 		4374E1DD1E286E1000B3E830 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4374E1DC1E286E1000B3E830 /* AppDelegate.m */; };
 		4374E1E01E286E1000B3E830 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4374E1DF1E286E1000B3E830 /* ViewController.m */; };
@@ -15,6 +17,7 @@
 		4374E1E81E286E1000B3E830 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4374E1E61E286E1000B3E830 /* LaunchScreen.storyboard */; };
 		4374E1F31E286E1000B3E830 /* BaseProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4374E1F21E286E1000B3E830 /* BaseProjectTests.m */; };
 		4374E1FE1E286E1100B3E830 /* BaseProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4374E1FD1E286E1100B3E830 /* BaseProjectUITests.m */; };
+		4374E20D1E287BD800B3E830 /* BaseRequestAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 4374E20C1E287BD800B3E830 /* BaseRequestAPI.m */; };
 		7D8295A6AA956973E2545991 /* libPods-BaseProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 752BEA749FC4D1247F86E269 /* libPods-BaseProject.a */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		436EB10E1E2DD154004F1074 /* RequestSuccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestSuccess.h; sourceTree = "<group>"; };
+		436EB10F1E2DD154004F1074 /* RequestSuccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestSuccess.m; sourceTree = "<group>"; };
+		436EB1111E2DD16B004F1074 /* RequestFailure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestFailure.h; sourceTree = "<group>"; };
+		436EB1121E2DD16B004F1074 /* RequestFailure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestFailure.m; sourceTree = "<group>"; };
 		4374E1D51E286E1000B3E830 /* BaseProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaseProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4374E1D91E286E1000B3E830 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4374E1DB1E286E1000B3E830 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -52,6 +59,8 @@
 		4374E1F91E286E1000B3E830 /* BaseProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaseProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4374E1FD1E286E1100B3E830 /* BaseProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseProjectUITests.m; sourceTree = "<group>"; };
 		4374E1FF1E286E1100B3E830 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4374E20B1E287BD800B3E830 /* BaseRequestAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseRequestAPI.h; sourceTree = "<group>"; };
+		4374E20C1E287BD800B3E830 /* BaseRequestAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseRequestAPI.m; sourceTree = "<group>"; };
 		752BEA749FC4D1247F86E269 /* libPods-BaseProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BaseProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		893A05201BF442291D055C2F /* Pods-BaseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProject/Pods-BaseProject.debug.xcconfig"; sourceTree = "<group>"; };
 		B0A2F8B9F322000B0DCF906B /* Pods-BaseProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProject/Pods-BaseProject.release.xcconfig"; sourceTree = "<group>"; };
@@ -117,6 +126,12 @@
 				4374E1E61E286E1000B3E830 /* LaunchScreen.storyboard */,
 				4374E1E91E286E1000B3E830 /* Info.plist */,
 				4374E1D81E286E1000B3E830 /* Supporting Files */,
+				4374E20B1E287BD800B3E830 /* BaseRequestAPI.h */,
+				4374E20C1E287BD800B3E830 /* BaseRequestAPI.m */,
+				436EB10E1E2DD154004F1074 /* RequestSuccess.h */,
+				436EB10F1E2DD154004F1074 /* RequestSuccess.m */,
+				436EB1111E2DD16B004F1074 /* RequestFailure.h */,
+				436EB1121E2DD16B004F1074 /* RequestFailure.m */,
 			);
 			path = BaseProject;
 			sourceTree = "<group>";
@@ -349,8 +364,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4374E1E01E286E1000B3E830 /* ViewController.m in Sources */,
+				4374E20D1E287BD800B3E830 /* BaseRequestAPI.m in Sources */,
+				436EB1131E2DD16B004F1074 /* RequestFailure.m in Sources */,
 				4374E1DD1E286E1000B3E830 /* AppDelegate.m in Sources */,
 				4374E1DA1E286E1000B3E830 /* main.m in Sources */,
+				436EB1101E2DD154004F1074 /* RequestSuccess.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
